@@ -39,3 +39,13 @@ print(d)
 print(c)
 print(d)
 print(c)
+
+#a="###"
+#b="   "
+#print(a.join("    "))
+#print(b.join("'''' "))
+#print(a.join("    "))
+#print(b.join("'''' "))
+#print(a.join("    "))
+#print(b.join("'''' "))
+#print(a.join("    ")
