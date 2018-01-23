@@ -1,0 +1,41 @@
+#b=[]
+
+
+#if a[0]<7:
+    #b.append()
+
+#for a in [1,1,2,3,5,8,13,46,57]:
+    #if a<7:
+        #b.append(a)
+#print(b)
+
+#scand=200000
+#minute=0
+#honor=0
+#day=0
+#while scand>60:
+    #scand=scand-60
+    #minute=minute+1
+    #while minute>60:
+        #minute=minute-60
+        #honor=honor+1
+        #while honor>24:
+            #honor=honor-24
+            #day=day+1
+#a=[day, honor, minute, scand]
+#print(a)
+
+a=" ### "
+b='"   '
+c=""
+d=""
+c=(a)
+c=c+(a.lstrip()*2)
+print(c)
+d=(b*4)
+print(d)
+print(c)
+print(d)
+print(c)
+print(d)
+print(c)
