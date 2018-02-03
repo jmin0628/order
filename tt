@@ -1,3 +1,7 @@
+
+
+
+
 #b=[]
 
 
@@ -68,3 +72,32 @@ while a > 0:
 
 c.reverse()
 print(c)
+
+3과5 배수(집합)
+
+t=set([])
+f=set([])
+
+a=3
+b=5
+c=0
+e=0
+
+while a<1000:
+    t.add(a)
+    a=a+3
+
+while b<1000:
+    f.add(b)
+    b=b+5
+
+y=t|f
+v=tuple(y)
+d=len(v)
+
+while c<d:
+    e=e+v[c]
+    c=c+1
+
+
+print(e)
