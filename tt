@@ -115,3 +115,39 @@ while a<1000:
         d=d+a
 
 print(d)
+
+파일입력
+
+c='--파일 내용--\n'
+
+
+a = open("C:/Python/새파일.txt", "w")
+a.write(c)
+while 1:
+    str1 = input('이름을 입력하세요:')
+    str2 = input('점수를 입력하세요:')
+    a.write('%s:%s \n'%(str1,str2))
+    str3 = input('계속하시겠습니까? y/n:')
+    if str3 == 'n':
+        break
+    elif not str3=='y' and 'n':
+        str3 = input('잘못입력하셨습니다. y/n:')
+
+a.close()
+
+야구게임(진행중)
+
+import random
+a=[]
+b=0
+str1=[]
+while b<3:
+    b=b+1
+    a.append(random.randint(0,9))
+else:
+    str1.append(int(input('첫번째 숫자를 입력하세요:')))
+    str1.append(int(input('두번째 숫자를 입력하세요:')))
+    str1.append(int(input('세번째 숫자를 입력하세요:')))
+    #if a in str1:
+    
+    
