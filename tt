@@ -155,9 +155,10 @@ else:
 
 while 1:
     a=input('문자를 입력하세요:')
+    print(a[:3])
     b=input('문자를 더 입력하시겠습니까? y/n:')
-    if 'n' and 'y':
-    b=input('잘못 입력하셨습니다. y/n:')
-    break
-    print(a[:2])
+    if b=='n':
+        break
+    elif not (b=='n' or b=='y'):
+        b=input('잘못 입력하셨습니다. y/n:')
     
