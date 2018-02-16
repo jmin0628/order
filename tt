@@ -164,3 +164,17 @@ while 1:
     
 code.org 13농부1
 http://swhacademy.ga:8080
+
+
+w=int(input('1:사각형 2:원 3:종료 >>:'))
+while 1:
+    if w==1:
+        a=int(input('첫번째 숫자를 입력하세요:'))
+        b=int(input('두번째 숫자를 입력하세요:'))
+        print('사각형의 둘레는 %d 넓이는 %d 입니다' %(2*(a+b),a*b)
+    elif w==2:
+        r=int(input('반지름을 입력하세요:'))
+        print('원의 둘레는 %d 넓이는 %d 입니다' %(2*r*3.14,r*r*3.14)
+    elif w==3:
+        break
+        
