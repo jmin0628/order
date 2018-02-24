@@ -135,20 +135,6 @@ while 1:
 
 a.close()
 
-야구게임(진행중)
-
-import random
-a=[]
-b=0
-str1=[]
-while b<3:
-    b=b+1
-    a.append(random.randint(0,9))
-else:
-    str1.append(int(input('첫번째 숫자를 입력하세요:')))
-    str1.append(int(input('두번째 숫자를 입력하세요:')))
-    str1.append(int(input('세번째 숫자를 입력하세요:')))
-    #if a in str1:
     
     
 (숙제)
